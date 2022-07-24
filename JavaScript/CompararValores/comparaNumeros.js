@@ -1,10 +1,10 @@
 function comparaNumeros(num1, num2) {
     if (!num1 || !num2) return 'Defina novos valores!';
 
-    const PRIMEIRAFRASE = criaPrimeiraFrase(num1, num2);
-    const SEGUNDAFRASE = criaSegundaFrase(num1, num2);
+    const PRIMEIRA_FRASE = criaPrimeiraFrase(num1, num2);
+    const SEGUNDA_FRASE = criaSegundaFrase(num1, num2);
 
-    return `${PRIMEIRAFRASE} ${SEGUNDAFRASE}`;
+    return `${PRIMEIRA_FRASE} ${SEGUNDA_FRASE}`;
 }
 
 function criaPrimeiraFrase(num1, num2) {
